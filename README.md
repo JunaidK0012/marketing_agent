@@ -1,6 +1,7 @@
 # Marketing Agent
 
-AI-powered Marketing Agent — a modular, extensible agent that helps generate marketing content, strategy suggestions, ad copy, keyword ideas, and simple automation workflows using large language models.
+This is an agentic Marketing Crew consisting of a Head of Marketing, a Creative Content Creator, a Content Writer and an SEO specialist. This agentic system is built using crewai.
+It helps generate marketing content, strategy suggestions, ad copy, keyword ideas using large language models.
 
 ---
 
@@ -21,15 +22,12 @@ AI-powered Marketing Agent — a modular, extensible agent that helps generate m
 
 ## About
 
-`marketing_agent` is an opinionated starting point for building an LLM-driven marketing assistant. The agent can be extended with custom skills (content generation, A/B copy ideas, SEO keyword brainstorming, campaign planning, email subject generation, and more). It provides a structure for integrating language models, prompt templates, and simple pipelines so you can focus on domain-specific logic.
-
 Use cases:
 
 * Generate marketing copy for ads, emails, and social posts
 * Brainstorm keyword lists and SEO-friendly headings
 * Create short campaign briefs and tactical checklists
 * Convert marketing goals into suggested task lists
-* (Optional) Run simple automation like writing to CSV / Google Sheets or pushing drafts to a CMS
 
 ---
 
