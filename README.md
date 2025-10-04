@@ -11,19 +11,11 @@ AI-powered Marketing Agent — a modular, extensible agent that helps generate m
 * [Tech stack](#tech-stack)
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
-* [Configuration / Environment variables](#configuration--environment-variables)
+* [Configuration / Environment variables]
 * [Usage](#usage)
-
-  * [Run locally (example)](#run-locally-example)
-  * [Programmatic usage (example)](#programmatic-usage-example)
 * [Project structure](#project-structure)
 * [Development](#development)
-* [Testing](#testing)
-* [Deployment / Docker](#deployment--docker)
-* [Contributing](#contributing)
 * [Roadmap / Ideas](#roadmap--ideas)
-* [License](#license)
-* [Author / Contact](#author--contact)
 
 ---
 
@@ -51,11 +43,9 @@ Use cases:
 
 ## Tech stack
 
-> These are suggested technologies — replace any entries that don't match your project.
-
 * Python 3.10+
-* CrewAi (optional)
-* OpenAI / other LLM provider
+* CrewAi 
+* Gemini / other LLM provider
 
 
 ---
@@ -63,8 +53,9 @@ Use cases:
 ## Prerequisites
 
 * Python 3.10+
-* An OpenAI API key (or credentials for your chosen LLM provider)
-* (Optional) Docker
+* Gemini API key (or credentials for your chosen LLM provider)
+* Serper API key
+
 
 ---
 
@@ -107,7 +98,6 @@ SERPAPI_API_KEY= ENTER_YOUR_KEY               # for search/keyword lookups
 
 ## Usage
 
-
 ### Run locally (example)
 
 ```bash
@@ -127,8 +117,6 @@ python crew.py
 ---
 
 ## Project structure
-
-This is a suggested/guessed structure. Replace or update with the actual tree from your repo.
 
 ```
 marketing_agent/
